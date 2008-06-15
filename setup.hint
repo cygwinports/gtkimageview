@@ -1,0 +1,6 @@
+category: Gnome
+requires: cygwin glib2 gdk-pixbuf2 gtk2-x11 libintl8
+sdesc: "GTK+ image viewer widget (runtime)"
+ldesc: "GtkImageView is a widget that provides a zoomable and panable 
+view of a GdkPixbuf. It is intended to be usable in most types of image 
+viewing applications."

@@ -1,0 +1,116 @@
+gtkimageview
+------------------------------------------
+GtkImageView is a widget that provides a zoomable and panable view of a 
+GdkPixbuf. It is intended to be usable in most types of image viewing 
+applications.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  gdk-pixbuf2-2.12.9-1
+  glib2-2.14.6-1
+  gtk2-x11-2.12.9-1
+  libintl8-0.15-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gettext-devel-0.15-1
+  gnome-common-2.20.0-2
+  gtk-doc-1.10-1
+  libtool-2.2.2-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://trac.bjourne.webfactional.com/
+
+Canonical download:
+  http://trac.bjourne.webfactional.com/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gtkimageview-1.6.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gtkimageview-1.6.1-X.cygport all
+
+This will create:
+  /usr/src/gtkimageview-1.6.1-X-src.tar.bz2
+  /usr/src/gtkimageview-1.6.1-X.tar.bz2
+  /usr/src/gtkimageview-devel-1.6.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(gtkimageview)
+  /usr/bin/cyggtkimageview-0.dll
+  /usr/share/doc/gtkimageview-1.6.1/COPYING
+  /usr/share/doc/gtkimageview-1.6.1/README
+
+(gtkimageview-devel)
+  /usr/include/gtkimageview/cursors.h
+  /usr/include/gtkimageview/gdkpixbufdrawcache.h
+  /usr/include/gtkimageview/gtkanimview.h
+  /usr/include/gtkimageview/gtkiimagetool.h
+  /usr/include/gtkimageview/gtkimagenav.h
+  /usr/include/gtkimageview/gtkimagescrollwin.h
+  /usr/include/gtkimageview/gtkimagetooldragger.h
+  /usr/include/gtkimageview/gtkimagetoolpainter.h
+  /usr/include/gtkimageview/gtkimagetoolselector.h
+  /usr/include/gtkimageview/gtkimageview-typebuiltins.h
+  /usr/include/gtkimageview/gtkimageview.h
+  /usr/include/gtkimageview/gtkzooms.h
+  /usr/include/gtkimageview/mouse_handler.h
+  /usr/include/gtkimageview/utils.h
+  /usr/lib/libgtkimageview.dll.a
+  /usr/lib/libgtkimageview.la
+  /usr/lib/pkgconfig/gtkimageview.pc
+  /usr/share/gtk-doc/html/gtkimageview/GtkAnimView.html
+  /usr/share/gtk-doc/html/gtkimageview/GtkIImageTool.html
+  /usr/share/gtk-doc/html/gtkimageview/GtkImageNav.html
+  /usr/share/gtk-doc/html/gtkimageview/GtkImageScrollWin.html
+  /usr/share/gtk-doc/html/gtkimageview/GtkImageToolDragger.html
+  /usr/share/gtk-doc/html/gtkimageview/GtkImageToolSelector.html
+  /usr/share/gtk-doc/html/gtkimageview/GtkImageView.html
+  /usr/share/gtk-doc/html/gtkimageview/acknowledgements.html
+  /usr/share/gtk-doc/html/gtkimageview/big-zoom-sel-bug.png
+  /usr/share/gtk-doc/html/gtkimageview/compiling.html
+  /usr/share/gtk-doc/html/gtkimageview/dirstructure.html
+  /usr/share/gtk-doc/html/gtkimageview/ex-mini.png
+  /usr/share/gtk-doc/html/gtkimageview/ex-monitor-selection.png
+  /usr/share/gtk-doc/html/gtkimageview/gtkimageview-gdkpixbufdrawcache.html
+  /usr/share/gtk-doc/html/gtkimageview/gtkimageview-gtkzooms.html
+  /usr/share/gtk-doc/html/gtkimageview/gtkimageview-in-window.png
+  /usr/share/gtk-doc/html/gtkimageview/gtkimageview.devhelp
+  /usr/share/gtk-doc/html/gtkimageview/gtkimageview.devhelp2
+  /usr/share/gtk-doc/html/gtkimageview/home.png
+  /usr/share/gtk-doc/html/gtkimageview/index.html
+  /usr/share/gtk-doc/html/gtkimageview/index.sgml
+  /usr/share/gtk-doc/html/gtkimageview/left.png
+  /usr/share/gtk-doc/html/gtkimageview/navwin-open.png
+  /usr/share/gtk-doc/html/gtkimageview/overview.html
+  /usr/share/gtk-doc/html/gtkimageview/releasehistory.html
+  /usr/share/gtk-doc/html/gtkimageview/right.png
+  /usr/share/gtk-doc/html/gtkimageview/rn01.html
+  /usr/share/gtk-doc/html/gtkimageview/style.css
+  /usr/share/gtk-doc/html/gtkimageview/up.png
+
+------------------
+
+Port Notes:
+
+----- version 1.6.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
