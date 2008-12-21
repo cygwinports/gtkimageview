@@ -1,4 +1,4 @@
-ncategory: Gnome
+category: Gnome
 requires: cygwin libgtkimageview0 glib2-devel gdk-pixbuf2-devel gtk2-x11-devel gettext
 external-source: gtkimageview
 sdesc: "GTK+ image viewer widget (development)"
