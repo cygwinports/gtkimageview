@@ -6,7 +6,7 @@ SRC_URI="http://trac.bjourne.webfactional.com/attachment/wiki/WikiStart/${P}.tar
 PATCH_URI="1.6.3-gtk-doc-fixes.patch"
 
 PKG_NAMES="${PN} lib${PN}0 lib${PN}-devel"
-declare lib${PN}0_CONTENTS="usr/bin/cyg${PN}-0.dll usr/share/doc/"
-declare lib${PN}_devel_CONTENTS='usr/include/ usr/lib/ usr/share/gtk-doc/'
+libgtkimageview0_CONTENTS="usr/bin/cyg${PN}-0.dll usr/share/doc/"
+libgtkimageview_devel_CONTENTS='usr/include/ usr/lib/ usr/share/gtk-doc/'
 
 DIFF_EXCLUDES="*.types"
