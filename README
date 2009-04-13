@@ -5,7 +5,7 @@ GdkPixbuf. It is intended to be usable in most types of image viewing
 applications.
 
 Runtime requirements:
-  cygwin-1.7.0-44
+  cygwin-1.7.0-45
   libgcc1-4.3.2-2
   libgdk_pixbuf2.0_0-2.16.0-1
   libglib2.0_0-2.20.0-1
@@ -37,16 +37,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gtkimageview-1.6.3-X-src.tar.bz2
+  unpack gtkimageview-1.6.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gtkimageview-1.6.3-X.cygport all
+  cygport ./gtkimageview-1.6.4-X.cygport all
 
 This will create:
-  /usr/src/gtkimageview-1.6.3-X-src.tar.bz2
-  /usr/src/libgtkimageview-devel-1.6.3-X.tar.bz2
-  /usr/src/libgtkimageview0-1.6.3-X.tar.bz2
+  /usr/src/gtkimageview-1.6.4-X-src.tar.bz2
+  /usr/src/libgtkimageview-devel-1.6.4-X.tar.bz2
+  /usr/src/libgtkimageview0-1.6.4-X.tar.bz2
 
 -------------------------------------------
 
@@ -102,12 +102,16 @@ Files included in the binary packages:
   /usr/share/gtk-doc/html/gtkimageview/releasehistory.html
   /usr/share/gtk-doc/html/gtkimageview/right.png
   /usr/share/gtk-doc/html/gtkimageview/rn01.html
+  /usr/share/gtk-doc/html/gtkimageview/sourcecode.html
   /usr/share/gtk-doc/html/gtkimageview/style.css
   /usr/share/gtk-doc/html/gtkimageview/up.png
 
 ------------------
 
 Port Notes:
+
+----- version 1.6.4-1 -----
+Version bump.
 
 ----- version 1.6.3-10 -----
 Initial release for Cygwin 1.7.
