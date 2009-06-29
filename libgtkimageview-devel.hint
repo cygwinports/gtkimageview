@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libgtkimageview0 libglib2.0-devel libgdk_pixbuf2.0-devel libgtk2.0-devel gettext
+requires: libgtkimageview0 libglib2.0-devel libgdk_pixbuf2.0-devel libgtk2.0-devel gettext
 external-source: gtkimageview
 sdesc: "GTK+ image viewer widget (development)"
 ldesc: "GtkImageView is a widget that provides a zoomable and panable 
