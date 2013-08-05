@@ -1,0 +1,20 @@
+inherit gnome2
+
+NAME="gtkimageview"
+VERSION=1.6.4
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="GTK+ image viewer widget"
+DESCRIPTION="GtkImageView is a widget that provides a zoomable and panable
+view of a GdkPixbuf. It is intended to be usable in most types of image
+viewing applications."
+DESCRIPTION="GTK+ image viewer widget"
+# defunct
+HOMEPAGE="http://trac.bjourne.webfactional.com/"
+SRC_URI="http://pkgs.fedoraproject.org/repo/pkgs/gtkimageview/gtkimageview-${VERSION}.tar.gz/501367b3f50e69a12208dc9c6ad00b18/gtkimageview-${VERSION}.tar.gz"
+
+PKG_NAMES="lib${NAME}0 lib${NAME}-devel"
+libgtkimageview0_CONTENTS="usr/bin/cyg${NAME}-0.dll usr/share/doc/"
+libgtkimageview_devel_CONTENTS='usr/include/ usr/lib/ usr/share/gtk-doc/'
+
+DIFF_EXCLUDES="gtkimageview.types"

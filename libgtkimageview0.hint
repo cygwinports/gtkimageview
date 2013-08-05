@@ -1,7 +1,0 @@
-category: Gnome
-requires: libgcc1 libglib2.0_0 libgdk_pixbuf2.0 libgtk2.0_0 libintl8
-external-source: gtkimageview
-sdesc: "GTK+ image viewer widget (runtime)"
-ldesc: "GtkImageView is a widget that provides a zoomable and panable 
-view of a GdkPixbuf. It is intended to be usable in most types of image 
-viewing applications."
